@@ -1,0 +1,60 @@
+img{
+	max-width: 100%;
+	max-height: 180px;
+}
+
+body{
+	background: radial-gradient(gray,black);
+	height: 100vh;
+}
+
+.container{
+	perspective: 800px;
+}
+.blackjack{
+	margin-top: 20px;
+	font-family: 'Monoton', cursive;
+	font-size: 75px;
+	color: white;
+
+}
+
+.the-table{
+	background-color: #277714;
+	background-image: linear-gradient(90deg, transparent 50%, rgba(255,255,255,.5) 50%);
+	background-size: 50px 50px;
+	border: none;
+	padding: 30px 0px 0px 0px;
+	border-radius: 10px 10px 50% 50%;
+	height: 550px;
+	box-shadow: 0 20px 0px 15px #331400;
+	transform: rotateX(45deg);
+	z-index: -1;
+}
+
+.dealer-hand-wrapper{
+	
+}
+
+.player-hand-wrapper{
+	
+}
+
+.card{
+	height: 180px;
+	margin: 10px;
+	width: 12.6%;
+	float: left;
+}
+
+.dealer-cards .card-1{
+	transform: translate(60px, 70px);
+}
+
+.btn{
+	font-size: 18px;
+	color: #ffd800;
+	background: radial-gradient(silver,black);
+	border-radius: 35%;
+	outline: none;
+}
